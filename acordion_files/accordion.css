@@ -1,0 +1,57 @@
+h2.acc_trigger {
+	background: url(images/h2_trigger_a.gif) no-repeat 0 -34px;
+	height: 45px;	line-height: 46px;
+	width: 890px;
+	font-weight: normal;
+	float: left;
+	font-size: 20px;
+	margin: 0;
+	padding-right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'futura_bk_btbook';
+	
+}
+h2.acc_trigger a {
+	color: #000;
+	display: block;
+	padding: 0 0 0 10px;
+	text-decoration:none !important;
+	
+}
+h2.acc_trigger.active a {
+	color:#C39;
+	display: block;
+	padding: 0 0 0 30px;
+	margin-left:-20px;
+	
+		
+}
+
+h2.acc_trigger a:hover {
+	color: #000;
+	background: url(../images/h2_trigger_a.gif) 0 0;
+	
+}
+h2.active {
+	background: url(../images/h2_trigger_a.gif) -498px -81px;
+	
+}
+h2.active a:hover {
+	background: url(../images/h2_trigger_a.gif) -498px -1px;
+	margin-left:-20px;
+	
+}
+.acc_container {
+	margin: 0 0 5px; padding: 0;
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 920px;
+	clear: both;
+	
+}
+.acc_container .block {
+	border-top: 1px dotted #666;
+	border-bottom: 1px dotted #666;
+	
+}

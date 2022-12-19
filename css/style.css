@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-color:#f9f9f9;
+	color: rgb(102, 102, 102);
+font-family: "Helvetica Neue",Verdana,Arial,Helvetica,sans-serif;
+font-size: 13px;
+line-height: 18.2px;
+margin:0 auto;}
+
+.negro {background-color:#000;  font-family: "Helvetica Neue",Verdana,Arial,Helvetica,sans-serif; font-size: 13px;line-height: 18.2px;}
+.backMenuNegro { background-image:url(../images/backMenuNegro.gif); background-repeat:repeat-x; margin-left:250px; margin-top:50px; margin-bottom:50px;}
+.cajaFulldome {width:900px; padding-left:260px;  }
+.boxVideoIzq  {float: left; padding-bottom:80px; padding-right:20px;  color:#666; width:430px;margin-bottom:100px; display:block;}
+.boxVideoIzq img  { width:360px; height:auto;}
+.boxVideoDer {float: left; }	
+.imgAlpha {opacity: 0.5;filter: alpha(opacity=50); /* For IE8 and earlier */}
+.imgAlpha:hover {opacity: 1.0;filter: alpha(opacity=100); /* For IE8 and earlier */}
+
+
+.cajaFulldome H2 {
+		line-height: 20px; color:#999;
+	font-weight: normal;
+	
+	font-size: 20px;
+	margin: 0;
+	padding-right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'futura_bk_btbook';
+}
+
+.cajaFulldome strong {color:#999;
+}
+
+.cajaFulldome a {
+	background-color:#ca2c89;
+	color:#FFF;
+	text-decoration:none;
+	padding:3px 3px;
+	margin-top:20px;
+	float:left;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+	
+}
+.last { border-bottom: 1px dotted #666; text-align:justify; margin-top:20px; padding-bottom:20px; }
+.pink { color:#c23577;}
+.espacio { margin-left:10px; float:left;}
+.btnProvisional {
+    background-color: black;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    color: white;
+    padding: 10px 10px;
+    display: table-cell;
+    border-radius: 10px;
+	width: 400px !important;
+	text-align: center;
+}
+
+.btnProvisional a {
+	color:white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.provisional  {
+	text-align: center;
+	
+}
+
+
+
+
+#equipoUno a,
+#equipoDos a,
+#equipoTres a
+ {color:#ce4081; font-weight:bold;  font-size:13px; background-image:url(../images/icoEmail.gif); background-repeat:no-repeat; padding-left:20px;}
+.logo { position:fixed; margin-left: 50px; margin-top:-10px;}
+
+h1, h2 {color:#333; font-family: 'futura_bk_btbook'; text-transform:uppercase;text-align:left;}
+
+h1 {font-size: 17px;}
+h2 {font-size: 14px; margin-top: -10px; color:#666; padding-left:23px;font-family: 'futura_lt_btlight'; font-weight:100;}
+
+#main { border-top:4px solid #000; }
+
+
+.backMenu { background-image:url(../images/backMenu.gif); background-repeat:repeat-x; margin-left:250px; margin-top:50px; margin-bottom:50px;}
+.mainHome div {width:1200px;} 
+.mainHome .boxHomeIzq img {float: left; padding-right:120px; padding-bottom:80px; margin-left:250px;}
+.mainHome .boxHomeDer img {float: left; }
+#footer {width:1280px; background-color:#000; height:200px; float:left; margin-top:100px;}
+.imgFooter {margin-top: -160px; margin-left:50px;}
+.imgDerechos { display:block; position:absolute; margin-top:20px; margin-left:50px;}
+.imgComunica {position:absolute; margin-top:-20px; margin-left:940px;}
+.boxRedes {margin-left: 280px; margin-top: 20px;}
+
+.columna-a {margin-left: 0; width: 260px!important;float:left !important;}
+.columna-b {margin-left: 30px; width: 260px!important; float:left !important;}
+.columna-c {margin-left: 30px; width: 260px!important; float:left !important;}
+.columna-aa {margin-left: 0; width: 260px!important;float:left !important;}
+.columna-bb {margin-left: 30px; width: 260px!important;float:left !important;}
+.columna-cc {margin-left: 30px; width: 260px!important;float:left !important;}
+
+
+.imgEquipo {-webkit-border-radius: 900px;-moz-border-radius: 900px;border-radius: 900px; }
+.foto { width:200px;}
+.numero {color:#ea568f; font-weight:100;}
+
+
+.columna-a,
+.columna-b,
+.columna-c,
+.columna-aa,
+.columna-bb,
+.columna-cc 
+ { border-bottom: 1px dotted #666; text-align:justify; margin-bottom:50px; }
+ 
+ 
+
+.contacto div,
+.nosotros div
+ {margin-left: 250px;}
+ 
+
+.nosotros h1,
+.contacto h1,
+.titleNosotros,
+.titleFulldome
+ {color:#000;font-family: 'futura_md_btbold'; font-size:50px; letter-spacing:-3px;}
+ 
+ .titleFulldome
+ {color:#fff; padding-bottom:50px; padding-top:30px;}
+ 
+.imgNosotros {margin-top:80px;}
+.contacto .columna-a {width: 900px!important; padding-bottom:150px; }
+.contacto .columna-b {width: 900px!important; margin-left: 250px;}
+
+.contacto .columna-a h1,
+.contacto .columna-b h1 {font-size:20px; letter-spacing:1px;}
+
+.boxTel,
+.boxAddres,
+.boxCorreo
+ {width: 300px;display:block; float:left; font-weight:bold; text-align:left;}
+.boxTel a,
+.boxCorreo a {color:#ce4081; font-weight:bold;  font-size:13px; }
+ 
+.boxTel img,
+.boxAddres img,
+.boxCorreo img
+ { margin-bottom:-5px;}
+ 
+ .proyectos {padding-bottom:120px;}
+ .container { margin-bottom: 100px;}
+ 
+ #equipoUno {margin-left:250px;float:left;}
+ #equipoDos {margin-left:250px; float:left;}
+ #equipoTres {margin-left:250px;float:left;}
+ 
+/* Non-Retina Screens desk*/
+ 
+
+ 
+/* resoluciones altas de desk */
+@media only screen 
+and (min-device-width : 1366px) 
+  { 
+#footer {height:240px;}
+}
+
+/* IPAD */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+bbody { background-color:RED;}	
+}
+
+/* IPAD MINI */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+bbody { background-color:orange;}
+#footer {height:800px;}
+#equipoUno {margin-left:240px;}
+#equipoDos {margin-left:240px; }
+.columna-a,
+.columna-b,
+.columna-c,
+.columna-aa,
+.columna-bb,
+.columna-cc {width:220px!important;}
+
+
+}
+
+
+/* IPHONE 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+bbody { background-color:pink;}	
+#footer {height:1200px;}
+#equipoUno {margin-left:240px;}
+#equipoDos {margin-left:240px; }
+.columna-a,
+.columna-b,
+.columna-c,
+.columna-aa,
+.columna-bb,
+.columna-cc {width:220px!important;}
+
+}
+
+/* otras */
+@media only screen 
+and (min-device-width : 900px)
+and (max-device-width : 980px)  { 
+bbody { background-color:grey;}	
+#equipoUno {margin-left:200px;}
+#equipoDos {margin-left:200px; }
+.columna-a,
+.columna-b,
+.columna-c,
+.columna-aa,
+.columna-bb,
+.columna-cc {width:240px!important;}
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 370px) { 
+bbody { background-color:green;}
+#footer {height:1200px;}
+#equipoUno {margin-left:250px;}
+#equipoDos {margin-left:250px; }
+.columna-a,
+.columna-b,
+.columna-c,
+.columna-aa,
+.columna-bb,
+.columna-cc {width:220px!important;}
+
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
